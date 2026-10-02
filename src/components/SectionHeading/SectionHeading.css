@@ -1,0 +1,36 @@
+.section-heading {
+  margin-bottom: 2rem;
+}
+
+.section-heading--center {
+  text-align: center;
+}
+
+.section-heading__eyebrow {
+  margin: 0 0 0.9rem;
+  color: var(--color-primary);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(1rem, 1vw + 0.75rem, 1.25rem);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-heading__title {
+  margin: 0;
+  font-size: clamp(2.2rem, 4vw, 4.2rem);
+  line-height: 0.96;
+  letter-spacing: -0.06em;
+}
+
+.section-heading__subtitle {
+  margin: 1rem 0 0;
+  color: var(--color-muted);
+  font-size: 1.04rem;
+  max-width: 620px;
+}
+
+.section-heading--center .section-heading__subtitle {
+  margin-left: auto;
+  margin-right: auto;
+}

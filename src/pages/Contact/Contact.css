@@ -1,0 +1,86 @@
+.contact-hero__inner {
+  max-width: 50%;
+}
+
+.contact-hero__inner h1 {
+  margin: 0;
+  font-size: clamp(2.6rem, 5vw, 5rem);
+  line-height: 0.95;
+  letter-spacing: -0.07em;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.contact-info-panel,
+.contact-map-panel {
+  min-width: 0;
+}
+
+.contact-info-panel {
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid var(--color-border);
+  border-radius: 2rem;
+  padding: 1.5rem;
+}
+
+.contact-info-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-info-card {
+  display: flex;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(111, 43, 39, 0.08);
+  border-radius: 1.4rem;
+  padding: 1.1rem 1rem;
+}
+
+.contact-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: rgba(111, 43, 39, 0.08);
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.contact-info-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+}
+
+.contact-info-card p {
+  margin: 0;
+  color: var(--color-muted);
+  white-space: pre-line;
+}
+
+.directions-button {
+  margin-top: 1.4rem;
+}
+
+.contact-map-panel {
+  height: 100%;
+  min-height: 420px;
+  border-radius: 2rem;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 24px 42px rgba(28, 20, 18, 0.08);
+}
+
+@media (max-width: 900px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+}

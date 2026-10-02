@@ -1,0 +1,33 @@
+.site-shell {
+  background: transparent;
+}
+
+.link-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.page-hero__inner,
+.story-grid,
+.signature-section__inner,
+.location-grid,
+.contact-grid,
+.about-hero__inner,
+.about-story,
+.about-philosophy__grid,
+.chef-grid,
+.stats-grid,
+.gallery-grid,
+.contact-info-grid {
+  display: grid;
+}
+
+@media (max-width: 860px) {
+  .row-stack {
+    grid-template-columns: 1fr;
+  }
+}
