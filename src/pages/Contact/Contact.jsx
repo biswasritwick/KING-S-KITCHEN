@@ -37,7 +37,7 @@ function Contact() {
     <>
       <section className="page-hero contact-hero">
         <div className="container ">
-          <div className="contact-hero__inner">
+          <div class>
             <p className="eyebrow">Visit us</p>
             <h1>We’ll be happy to welcome you.</h1>
           </div>
